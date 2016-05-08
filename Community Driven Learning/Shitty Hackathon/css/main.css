@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Metrophobic', Arial, serif;
+  font-weight: 400;
+}
+h1 {
+    text-align: center;
+}
+.hero-container {
+    margin: auto;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+}
