@@ -1,29 +1,37 @@
 # HTML_Learning
-Learning HTML and testing out different features. Implementing CSS, Jquery, and Javascript. 
+Learning HTML and testing out different features. Implementing CSS, Jquery, Pure Javascript and others. 
 
+***
 
+##Purpose:
 Repo for future reference and learning. 
 
-
-Test Folder: Trying out different headers. 
-
-
-NavWithColour: Adding colour to the navigation bar.
+***
 
 
-NavWithDropDown: Created a navigation bar with a drop down menu. 
+##Navigation:
 
 
-ShittyHackathonWebsite: Website created for the 2016 Victoria Shitty Hackathon.
+*HTML 5: CSS3 _ Website: Online Tutorial.
 
 
-ParallaxScrollingEffect: Parallax effect for website. Using HTML and CSS.
+*HelloWorld: Trying out different headers. 
 
 
-Yoga Website: Yoga Demo Website Tutorial. 
+*MockWebsite-Yoga: Yoga Demo Website Tutorial. 
 
 
-HTML5:CSS3_Website: Online Tutorial.
+
+*NavWithColour: Adding colour to the navigation bar.
 
 
-Intro to Resposive Web Design_Final: Online Tutorial for Responsive Web Design.
+*NavWithDropDown: Created a navigation bar with a drop down menu. 
+
+
+*ParallaxScrollingFeature: Parallax effect for website. Using HTML and CSS.
+
+
+*PersonalFunProjects: A folder of silly projects.
+
+
+*ResponsiveWebDesign: Online Tutorial for Responsive Web Design.
