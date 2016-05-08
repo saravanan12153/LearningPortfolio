@@ -1,4 +1,7 @@
-# Online Course Worskshop
+# Learning Portfolio
 
-##CodeSchoolCourses
-This repository will feature my finished products from Code School online courses. 
+##This is a portfolio to document my learning. 
+This repository will feature my finished products from learning opportunities  
+
+
+Read the WIKI \^.^/
