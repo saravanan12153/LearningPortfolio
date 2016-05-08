@@ -4,4 +4,4 @@
 This repository will feature my finished products from learning opportunities  
 
 
-Read the WIKI \^.^/
+Read the WIKI  \^.^/
