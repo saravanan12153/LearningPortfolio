@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Style Sheet -->
+  <link rel= "stylesheet" type= "text/css" href= "normalize.css">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  <title>LLC HTML and CSS Workshop</title>
+
+  <!-- I sorry about the Style in the HTML File....-->
+  <style>
+  /* Body */
+  body{
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+  }
+  /* Text */
+  h1{
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+  }
+	p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+		color: #333333;
+    text-decoration: line-through;
+	}
+  /* Images */
+  img.logo{
+    border: none;
+    margin: 0 auto;
+    display: block;
+  }
+  img.icon{
+
+  }
+  img.kitty{
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid purple;
+    border-radius: 50%;
+  }
+  img.Profile{
+    float: left;
+    margin-left: 5%;
+    padding: 5px;
+    border: 2px solid grey;
+    height:25%;
+    width:25%;
+  }
+  /* Links */
+  a{
+    font-weight: bold;
+    color: #333333;
+    text-decoration: underline;
+  }
+  /* Sections */
+  /* Banner */
+  section.banner{
+    background-image: url('images/background.jpg');
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-attachment: fixed;
+  }
+  section.banner h1, p{
+    color: white;
+    text-align: center;
+  }
+  section.banner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  section.banner p{
+    font-size: 36px;
+  }
+  /* About */
+  section.about{
+    overflow: hidden;
+    background: url('images/tile1.png');
+    padding-bottom: 30px;
+  }
+  section.about h2{
+    text-align: center;
+  }
+  section.about p{
+    float: right;
+  }
+  /* Kitty */
+  section.kitty{
+    text-align: center;
+  }
+  /* Icon */
+  section.icon{
+    background-image: url('images/background1.jpg');
+    text-align: center;
+  }
+  section.icon img{
+    margin: 20px;
+  }
+  /* Box */
+  section.box{
+    padding: 50px 100px;
+  }
+  section.box h2, section.box h3{
+    color: purple;
+  }
+  /* Menu */
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background: #ffffff;
+  }
+  .menu li{
+    display: inline-block;
+    padding: 20px 35px;
+  }
+  .menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 0;
+    width: 100%;
+  }
+  </style>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <ul class="menu">
+    <li><a href="#about"> List Item </a></li>
+    <li><a href="#kitty"> List Item </a></li>
+    <li><a href="#icon"> List Item </a></li>
+  </ul>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img class="logo" src="logo.png">
+    <h1>This is a header.</h1>
+	  <p>This is a paragraph.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about box">
+    <h2>This is a header 2</h2>
+    <img class="Profile" src="images/IMG_3580_Final.jpeg">
+    <p>This is a paragraph.</p>
+  </section>
+
+  <!-- Kitty -->
+  <section id="kitty" class="kitty box">
+    <h2>This is a header 2</h2>
+    <h3>This is a header 3</h3>
+    <img class="kitty" src="images/kitten.jpg">
+    <img class="kitty" src="images/kitten.jpg">
+    <img class="kitty" src="images/kitten.jpg">
+    <img class="kitty" src="images/kitten.jpg">
+  </section>
+
+  <!-- Icon -->
+  <section id="icon" class="icon box">
+    <p>This is a paragraph.</p>
+    <h2>This is a header 2</h2>
+    <a href="http://twitter.com/FlyteWizard"><img class="icon" src="images/twitter.png"></a>
+    <a href="http://dominiquecharlebois.com"><img class="icon" src="images/facebook.png"></a>
+    <a href="http://twitter.com/FlyteWizard"><img class="icon" src="images/linkedin.png"></a>
+  </section>
+
+</body>
+</html>
